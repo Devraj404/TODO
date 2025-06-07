@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+</head>
+<body>
+    <h1>Here you can create your to do list and define your task in structured and attractive manner with effeciency</h1>
+    <div class="main">
+        <span>
+            <a href="{{url_for('new_list')}}" method="POST">
+            <button onclick="location.href='createList.html'">>Create new LIST</button>
+            </a>
+        </span>
+
+        <span>
+            <button onclick="createList">Update existing LIST</button>
+        </span>
+    </div>
+</body>
+</html>
